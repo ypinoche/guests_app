@@ -5,8 +5,11 @@ A simple application with a `Flask` backend and a `SQLite` database.
 
 To use it :
 
-1 - Install dependencies with `pipenv`
-👉 ```pipenv install --dev && cd app/```
+1 - 👉 Install dependencies with `pipenv`
+
+```bash
+pipenv install --dev && cd app/
+```
 
 2 - 👉 Set up database
 
