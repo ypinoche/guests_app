@@ -41,7 +41,7 @@ def join_guest():
     if not group_size or group_size=='':
         group_size = 1
 
-    guest = Guest(first_name, last_name, email, meal_option, group_size)
+    guest = Guest(first_name, last_name, email, group_size, meal_option)
     database.session.add(guest)
     database.session.commit()
 
